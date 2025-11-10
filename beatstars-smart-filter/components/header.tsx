@@ -28,13 +28,19 @@ export function Header() {
         </nav>
 
         <div className="flex items-center gap-2">
-          <Button variant="ghost" size="icon">
-            <ShoppingCart className="h-5 w-5" />
+          <Button variant="ghost" size="icon" asChild>
+            <Link href="/cart" aria-label="Open cart">
+              <ShoppingCart className="h-5 w-5" />
+            </Link>
           </Button>
-          <Button variant="ghost" size="icon">
-            <User className="h-5 w-5" />
+          <Button variant="ghost" size="icon" asChild>
+            <Link href="/profile" aria-label="Open profile">
+              <User className="h-5 w-5" />
+            </Link>
           </Button>
-          <Button className="hidden bg-purple-500 hover:bg-purple-600 md:inline-flex">Sign In</Button>
+          <Button className="hidden bg-purple-500 hover:bg-purple-600 md:inline-flex" asChild>
+            <Link href="/sign-in">Sign In</Link>
+          </Button>
         </div>
       </div>
     </header>

@@ -1,116 +1,72 @@
 "use client"
 
-import { useState } from "react"
+import { useState, useMemo } from "react"
 import { BeatCard } from "@/components/beat-card"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
-import { Search, SlidersHorizontal } from "lucide-react"
-
-// Mock beat data - in production this would come from your database
-const MOCK_BEATS = [
-  {
-    id: "1",
-    title: "Midnight Hustle",
-    producer: "TriuneBeats",
-    bpm: 140,
-    key: "C Minor",
-    genre: "Trap",
-    price: 29.99,
-    imageUrl: "/dark-trap-beat-cover.jpg",
-    audioUrl: "/beats/midnight-hustle.mp3",
-    tags: ["Dark", "Aggressive", "Hard"],
-    likes: 234,
-    plays: 1523,
-  },
-  {
-    id: "2",
-    title: "Golden Hour",
-    producer: "TriuneBeats",
-    bpm: 85,
-    key: "G Major",
-    genre: "Boom Bap",
-    price: 24.99,
-    imageUrl: "/golden-sunset-hip-hop.jpg",
-    audioUrl: "/beats/golden-hour.mp3",
-    tags: ["Chill", "Smooth", "Jazzy"],
-    likes: 456,
-    plays: 2891,
-  },
-  {
-    id: "3",
-    title: "Street Dreams",
-    producer: "TriuneBeats",
-    bpm: 95,
-    key: "D Minor",
-    genre: "Lo-Fi",
-    price: 19.99,
-    imageUrl: "/urban-street-night-lofi.jpg",
-    audioUrl: "/beats/street-dreams.mp3",
-    tags: ["Melancholic", "Atmospheric", "Deep"],
-    likes: 189,
-    plays: 987,
-  },
-  {
-    id: "4",
-    title: "Victory Lap",
-    producer: "TriuneBeats",
-    bpm: 150,
-    key: "E Minor",
-    genre: "Trap",
-    price: 34.99,
-    imageUrl: "/victory-championship-energy.jpg",
-    audioUrl: "/beats/victory-lap.mp3",
-    tags: ["Triumphant", "Energetic", "Hype"],
-    likes: 678,
-    plays: 4521,
-  },
-  {
-    id: "5",
-    title: "Late Night Thoughts",
-    producer: "TriuneBeats",
-    bpm: 70,
-    key: "A Minor",
-    genre: "R&B",
-    price: 27.99,
-    imageUrl: "/late-night-city-lights-rnb.jpg",
-    audioUrl: "/beats/late-night.mp3",
-    tags: ["Emotional", "Slow", "Soulful"],
-    likes: 312,
-    plays: 1876,
-  },
-  {
-    id: "6",
-    title: "Flex Mode",
-    producer: "TriuneBeats",
-    bpm: 130,
-    key: "F# Minor",
-    genre: "Trap",
-    price: 29.99,
-    imageUrl: "/luxury-flex-trap-beat.jpg",
-    audioUrl: "/beats/flex-mode.mp3",
-    tags: ["Bouncy", "Club", "Catchy"],
-    likes: 523,
-    plays: 3214,
-  },
-]
+import { Search, SlidersHorizontal, ArrowUpDown } from "lucide-react"
+import { Card } from "@/components/ui/card"
+import { Badge } from "@/components/ui/badge"
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
+import { MOCK_BEATS, GENRES, type Beat } from "@/lib/mock-data"
+import { motion } from "framer-motion"
 
 export function BeatMarketplace() {
   const [searchQuery, setSearchQuery] = useState("")
   const [showFilters, setShowFilters] = useState(false)
+  const [selectedGenre, setSelectedGenre] = useState("All")
+  const [sortBy, setSortBy] = useState("popular")
+  const [displayCount, setDisplayCount] = useState(12)
+
+  const filteredAndSortedBeats = useMemo(() => {
+    let filtered = MOCK_BEATS.filter((beat) => {
+      const matchesSearch =
+        beat.title.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        beat.producer.toLowerCase().includes(searchQuery.toLowerCase()) ||
+        beat.tags.some((tag) => tag.toLowerCase().includes(searchQuery.toLowerCase()))
+      const matchesGenre = selectedGenre === "All" || beat.genre === selectedGenre
+      return matchesSearch && matchesGenre
+    })
+
+    // Sort beats
+    switch (sortBy) {
+      case "popular":
+        filtered.sort((a, b) => b.plays - a.plays)
+        break
+      case "likes":
+        filtered.sort((a, b) => b.likes - a.likes)
+        break
+      case "price-low":
+        filtered.sort((a, b) => a.price - b.price)
+        break
+      case "price-high":
+        filtered.sort((a, b) => b.price - a.price)
+        break
+      case "newest":
+        filtered.sort((a, b) => parseInt(b.id) - parseInt(a.id))
+        break
+      default:
+        break
+    }
+
+    return filtered.slice(0, displayCount)
+  }, [searchQuery, selectedGenre, sortBy, displayCount])
 
   return (
     <section id="marketplace" className="container mx-auto px-4 py-12">
       <div className="mb-8 flex flex-col gap-4 md:flex-row md:items-center md:justify-between">
         <div>
           <h2 className="text-3xl font-bold">Browse All Beats</h2>
-          <p className="text-muted-foreground">Or use Smart Filter above for AI-powered recommendations</p>
+          <p className="text-muted-foreground">
+            Discover {MOCK_BEATS.length}+ premium beats from top producers worldwide
+          </p>
         </div>
 
-        <div className="flex gap-2">
+        <div className="flex flex-wrap gap-2">
           <div className="relative flex-1 md:w-80">
             <Search className="absolute left-3 top-1/2 h-4 w-4 -translate-y-1/2 text-muted-foreground" />
             <Input
-              placeholder="Search beats..."
+              placeholder="Search beats, producers, tags..."
               value={searchQuery}
               onChange={(e) => setSearchQuery(e.target.value)}
               className="pl-9"
@@ -119,20 +75,92 @@ export function BeatMarketplace() {
           <Button variant="outline" size="icon" onClick={() => setShowFilters(!showFilters)}>
             <SlidersHorizontal className="h-4 w-4" />
           </Button>
+          <Select value={sortBy} onValueChange={setSortBy}>
+            <SelectTrigger className="w-[180px]">
+              <ArrowUpDown className="mr-2 h-4 w-4" />
+              <SelectValue placeholder="Sort by" />
+            </SelectTrigger>
+            <SelectContent>
+              <SelectItem value="popular">Most Popular</SelectItem>
+              <SelectItem value="likes">Most Liked</SelectItem>
+              <SelectItem value="price-low">Price: Low to High</SelectItem>
+              <SelectItem value="price-high">Price: High to Low</SelectItem>
+              <SelectItem value="newest">Newest First</SelectItem>
+            </SelectContent>
+          </Select>
         </div>
       </div>
 
-      <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-        {MOCK_BEATS.map((beat) => (
-          <BeatCard key={beat.id} beat={beat} />
-        ))}
+      {showFilters && (
+        <motion.div
+          initial={{ opacity: 0, height: 0 }}
+          animate={{ opacity: 1, height: "auto" }}
+          exit={{ opacity: 0, height: 0 }}
+          className="mb-6"
+        >
+          <Card className="p-4">
+            <div className="flex flex-wrap items-center gap-4">
+              <div className="flex items-center gap-2">
+                <span className="text-sm font-medium">Genre:</span>
+                <div className="flex flex-wrap gap-2">
+                  {GENRES.map((genre) => (
+                    <Badge
+                      key={genre}
+                      variant={selectedGenre === genre ? "default" : "outline"}
+                      className="cursor-pointer"
+                      onClick={() => setSelectedGenre(genre)}
+                    >
+                      {genre}
+                    </Badge>
+                  ))}
+                </div>
+              </div>
+            </div>
+          </Card>
+        </motion.div>
+      )}
+
+      <div className="mb-4 text-sm text-muted-foreground">
+        Showing {filteredAndSortedBeats.length} of {MOCK_BEATS.length} beats
       </div>
 
-      <div className="mt-12 text-center">
-        <Button variant="outline" size="lg">
-          Load More Beats
-        </Button>
-      </div>
+      <motion.div
+        className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4"
+        initial="hidden"
+        animate="visible"
+        variants={{
+          visible: {
+            transition: {
+              staggerChildren: 0.05,
+            },
+          },
+        }}
+      >
+        {filteredAndSortedBeats.map((beat, index) => (
+          <motion.div
+            key={beat.id}
+            variants={{
+              hidden: { opacity: 0, y: 20 },
+              visible: { opacity: 1, y: 0 },
+            }}
+            transition={{ duration: 0.3 }}
+          >
+            <BeatCard beat={beat} />
+          </motion.div>
+        ))}
+      </motion.div>
+
+      {displayCount < MOCK_BEATS.length && (
+        <div className="mt-12 text-center">
+          <Button
+            variant="outline"
+            size="lg"
+            onClick={() => setDisplayCount((prev) => Math.min(prev + 12, MOCK_BEATS.length))}
+          >
+            Load More Beats ({MOCK_BEATS.length - displayCount} remaining)
+          </Button>
+        </div>
+      )}
     </section>
   )
 }

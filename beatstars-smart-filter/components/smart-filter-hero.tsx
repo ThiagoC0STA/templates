@@ -7,6 +7,7 @@ import { Textarea } from "@/components/ui/textarea"
 import { Input } from "@/components/ui/input"
 import { Card } from "@/components/ui/card"
 import { Sparkles, TrendingUp } from "lucide-react"
+import { motion } from "framer-motion"
 
 export function SmartFilterHero() {
   const router = useRouter()
@@ -43,24 +44,44 @@ export function SmartFilterHero() {
 
       <div className="container relative mx-auto px-4 py-16 md:py-24">
         <div className="mx-auto max-w-4xl text-center">
-          <div className="mb-6 inline-flex items-center gap-2 rounded-full bg-purple-500/10 px-4 py-2 text-sm font-medium text-purple-400">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5 }}
+            className="mb-6 inline-flex items-center gap-2 rounded-full bg-purple-500/10 px-4 py-2 text-sm font-medium text-purple-400"
+          >
             <Sparkles className="h-4 w-4" />
             AI-Powered Beat Matching
-          </div>
+          </motion.div>
 
-          <h1 className="mb-6 text-balance text-4xl font-bold tracking-tight md:text-6xl lg:text-7xl">
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.1 }}
+            className="mb-6 text-balance text-4xl font-bold tracking-tight md:text-6xl lg:text-7xl"
+          >
             Find Your Perfect Beat
             <span className="block bg-gradient-to-r from-purple-400 to-orange-400 bg-clip-text text-transparent">
               In Seconds
             </span>
-          </h1>
+          </motion.h1>
 
-          <p className="mb-12 text-pretty text-lg text-muted-foreground md:text-xl">
+          <motion.p
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.2 }}
+            className="mb-12 text-pretty text-lg text-muted-foreground md:text-xl"
+          >
             Stop scrolling through endless catalogs. Our smart AI matches your lyrics, mood, and style to the perfect
             beats.
-          </p>
+          </motion.p>
 
-          <Card className="border-border/50 bg-card/50 p-6 backdrop-blur-sm md:p-8">
+          <motion.div
+            initial={{ opacity: 0, y: 30 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.3 }}
+          >
+            <Card className="border-border/50 bg-card/50 p-6 backdrop-blur-sm md:p-8">
             <div className="mb-8 flex items-center justify-center gap-2">
               {[1, 2, 3].map((num) => (
                 <div key={num} className="flex items-center">
@@ -190,8 +211,14 @@ export function SmartFilterHero() {
               </div>
             )}
           </Card>
+          </motion.div>
 
-          <div className="mt-12 grid grid-cols-3 gap-4 text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: 0.4 }}
+            className="mt-12 grid grid-cols-3 gap-4 text-center"
+          >
             <div>
               <div className="text-2xl font-bold text-purple-400 md:text-3xl">10K+</div>
               <div className="text-sm text-muted-foreground">Premium Beats</div>
@@ -204,7 +231,7 @@ export function SmartFilterHero() {
               <div className="text-2xl font-bold text-purple-400 md:text-3xl">&lt;30s</div>
               <div className="text-sm text-muted-foreground">Avg. Search</div>
             </div>
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>

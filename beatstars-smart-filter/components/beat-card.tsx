@@ -4,24 +4,12 @@ import { useState } from "react"
 import { Card } from "@/components/ui/card"
 import { Button } from "@/components/ui/button"
 import { Badge } from "@/components/ui/badge"
-import { Play, Pause, Heart, ShoppingCart, Mic, Share2, MessageCircle } from "lucide-react"
+import { Play, Pause, Heart, ShoppingCart, Mic, Share2, MessageCircle, Crown } from "lucide-react"
 import Image from "next/image"
 import Link from "next/link"
+import { motion } from "framer-motion"
 
-interface Beat {
-  id: string
-  title: string
-  producer: string
-  bpm: number
-  key: string
-  genre: string
-  price: number
-  imageUrl: string
-  audioUrl: string
-  tags: string[]
-  likes: number
-  plays: number
-}
+import type { Beat } from "@/lib/mock-data"
 
 interface BeatCardProps {
   beat: Beat
@@ -38,7 +26,11 @@ export function BeatCard({ beat }: BeatCardProps) {
   }
 
   return (
-    <Card className="group overflow-hidden transition-all hover:shadow-lg">
+    <motion.div
+      whileHover={{ y: -5 }}
+      transition={{ duration: 0.2 }}
+    >
+      <Card className="group overflow-hidden transition-all hover:shadow-xl hover:border-purple-500/50">
       <div className="relative aspect-square overflow-hidden bg-muted">
         <Image
           src={beat.imageUrl || "/placeholder.svg"}
@@ -49,8 +41,10 @@ export function BeatCard({ beat }: BeatCardProps) {
         <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent" />
 
         {/* Play button overlay */}
-        <button
+        <motion.button
           onClick={handlePlayPause}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
           className="absolute left-1/2 top-1/2 flex h-16 w-16 -translate-x-1/2 -translate-y-1/2 items-center justify-center rounded-full bg-purple-500 text-white opacity-0 transition-opacity hover:bg-purple-600 group-hover:opacity-100"
         >
           {isPlaying ? (
@@ -58,10 +52,16 @@ export function BeatCard({ beat }: BeatCardProps) {
           ) : (
             <Play className="h-6 w-6 translate-x-0.5" fill="currentColor" />
           )}
-        </button>
+        </motion.button>
 
         {/* Tags */}
         <div className="absolute left-3 top-3 flex flex-wrap gap-1">
+          {beat.exclusive && (
+            <Badge variant="secondary" className="bg-gradient-to-r from-purple-500 to-orange-500 text-xs text-white">
+              <Crown className="mr-1 h-3 w-3" />
+              Exclusive
+            </Badge>
+          )}
           {beat.tags.slice(0, 2).map((tag) => (
             <Badge key={tag} variant="secondary" className="bg-black/50 text-xs text-white backdrop-blur-sm">
               {tag}
@@ -94,14 +94,20 @@ export function BeatCard({ beat }: BeatCardProps) {
           <div className="flex items-center gap-3">
             <span className="flex items-center gap-1">
               <Heart className="h-3.5 w-3.5" />
-              {beat.likes}
+              {beat.likes.toLocaleString()}
             </span>
             <span className="flex items-center gap-1">
               <Play className="h-3.5 w-3.5" />
-              {beat.plays}
+              {beat.plays.toLocaleString()}
             </span>
+            {beat.duration && <span>{beat.duration}</span>}
           </div>
-          <div className="text-lg font-bold text-foreground">${beat.price}</div>
+          <div className="text-right">
+            {beat.leasePrice && (
+              <div className="text-xs text-muted-foreground line-through">${beat.leasePrice}</div>
+            )}
+            <div className="text-lg font-bold text-foreground">${beat.price}</div>
+          </div>
         </div>
 
         <div className="grid grid-cols-2 gap-2">
@@ -129,5 +135,6 @@ export function BeatCard({ beat }: BeatCardProps) {
         </div>
       </div>
     </Card>
+    </motion.div>
   )
 }

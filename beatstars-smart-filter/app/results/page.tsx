@@ -7,99 +7,7 @@ import { Badge } from "@/components/ui/badge"
 import { Sparkles, ArrowLeft } from "lucide-react"
 import { Suspense } from "react"
 
-// Mock beat data - same as marketplace
-const ALL_BEATS = [
-  {
-    id: "1",
-    title: "Midnight Hustle",
-    producer: "TriuneBeats",
-    bpm: 140,
-    key: "C Minor",
-    genre: "Trap",
-    price: 29.99,
-    imageUrl: "/dark-trap-beat-cover.jpg",
-    audioUrl: "/beats/midnight-hustle.mp3",
-    tags: ["Dark", "Aggressive", "Hard"],
-    likes: 234,
-    plays: 1523,
-    matchScore: 0,
-  },
-  {
-    id: "2",
-    title: "Golden Hour",
-    producer: "TriuneBeats",
-    bpm: 85,
-    key: "G Major",
-    genre: "Boom Bap",
-    price: 24.99,
-    imageUrl: "/golden-sunset-hip-hop.jpg",
-    audioUrl: "/beats/golden-hour.mp3",
-    tags: ["Chill", "Smooth", "Jazzy"],
-    likes: 456,
-    plays: 2891,
-    matchScore: 0,
-  },
-  {
-    id: "3",
-    title: "Street Dreams",
-    producer: "TriuneBeats",
-    bpm: 95,
-    key: "D Minor",
-    genre: "Lo-Fi",
-    price: 19.99,
-    imageUrl: "/urban-street-night-lofi.jpg",
-    audioUrl: "/beats/street-dreams.mp3",
-    tags: ["Melancholic", "Atmospheric", "Deep"],
-    likes: 189,
-    plays: 987,
-    matchScore: 0,
-  },
-  {
-    id: "4",
-    title: "Victory Lap",
-    producer: "TriuneBeats",
-    bpm: 150,
-    key: "E Minor",
-    genre: "Trap",
-    price: 34.99,
-    imageUrl: "/victory-championship-energy.jpg",
-    audioUrl: "/beats/victory-lap.mp3",
-    tags: ["Triumphant", "Energetic", "Hype"],
-    likes: 678,
-    plays: 4521,
-    matchScore: 0,
-  },
-  {
-    id: "5",
-    title: "Late Night Thoughts",
-    producer: "TriuneBeats",
-    bpm: 70,
-    key: "A Minor",
-    genre: "R&B",
-    price: 27.99,
-    imageUrl: "/late-night-city-lights-rnb.jpg",
-    audioUrl: "/beats/late-night.mp3",
-    tags: ["Emotional", "Slow", "Soulful"],
-    likes: 312,
-    plays: 1876,
-    matchScore: 0,
-  },
-  {
-    id: "6",
-    title: "Flex Mode",
-    producer: "TriuneBeats",
-    bpm: 130,
-    key: "F# Minor",
-    genre: "Trap",
-    price: 29.99,
-    imageUrl: "/luxury-flex-trap-beat.jpg",
-    audioUrl: "/beats/flex-mode.mp3",
-    tags: ["Bouncy", "Club", "Catchy"],
-    likes: 523,
-    plays: 3214,
-    matchScore: 0,
-  },
-]
+import { MOCK_BEATS } from "@/lib/mock-data"
 
 function ResultsContent() {
   const searchParams = useSearchParams()
@@ -111,7 +19,7 @@ function ResultsContent() {
   const genre = searchParams.get("genre") || ""
 
   const matchBeats = () => {
-    const beatsWithScores = ALL_BEATS.map((beat) => {
+    const beatsWithScores = MOCK_BEATS.map((beat) => {
       let score = 0
 
       // Match mood to tags (case insensitive)
