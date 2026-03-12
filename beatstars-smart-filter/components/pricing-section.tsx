@@ -151,3 +151,4 @@ function PricingCard({ plan, index }: { plan: (typeof plans)[number]; index: num
 }
 
 
+

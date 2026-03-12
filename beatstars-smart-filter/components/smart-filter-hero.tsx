@@ -8,9 +8,11 @@ import { Input } from "@/components/ui/input"
 import { Card } from "@/components/ui/card"
 import { Sparkles, TrendingUp } from "lucide-react"
 import { motion } from "framer-motion"
+import { useTemplate } from "@/components/template-provider"
 
 export function SmartFilterHero() {
   const router = useRouter()
+  const { selection } = useTemplate()
   const [step, setStep] = useState(1)
   const [lyrics, setLyrics] = useState("")
   const [mood, setMood] = useState("")
@@ -33,6 +35,9 @@ export function SmartFilterHero() {
         ...(filters.genre && { genre: filters.genre }),
         ...(filters.key && { key: filters.key }),
       })
+
+      params.set("template", selection.templateId)
+      params.set("version", selection.versionId)
 
       router.push(`/results?${params.toString()}`)
     }, 2000)

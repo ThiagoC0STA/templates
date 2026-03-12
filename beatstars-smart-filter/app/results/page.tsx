@@ -8,10 +8,12 @@ import { Sparkles, ArrowLeft } from "lucide-react"
 import { Suspense } from "react"
 
 import { MOCK_BEATS } from "@/lib/mock-data"
+import { useTemplate } from "@/components/template-provider"
 
 function ResultsContent() {
   const searchParams = useSearchParams()
   const router = useRouter()
+  const { buildPath } = useTemplate()
 
   const mood = searchParams.get("mood") || ""
   const lyrics = searchParams.get("lyrics") || ""
@@ -81,7 +83,7 @@ function ResultsContent() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-background via-background to-muted/20">
       <div className="container mx-auto px-4 py-12">
-        <Button variant="ghost" onClick={() => router.push("/")} className="mb-6">
+        <Button variant="ghost" onClick={() => router.push(buildPath("/"))} className="mb-6">
           <ArrowLeft className="mr-2 h-4 w-4" />
           New Search
         </Button>
@@ -147,11 +149,11 @@ function ResultsContent() {
         <div className="mt-16 text-center">
           <p className="mb-4 text-muted-foreground">Not quite right?</p>
           <div className="flex flex-col justify-center gap-3 sm:flex-row">
-            <Button onClick={() => router.push("/")} variant="outline" size="lg">
+            <Button onClick={() => router.push(buildPath("/"))} variant="outline" size="lg">
               Try Another Search
             </Button>
             <Button
-              onClick={() => router.push("/#marketplace")}
+              onClick={() => router.push(buildPath("/#marketplace"))}
               size="lg"
               className="bg-purple-500 hover:bg-purple-600"
             >
