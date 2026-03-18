@@ -1,0 +1,2357 @@
+{
+  "filesScanned": 447,
+  "used_images": [
+    {
+      "path": "badge/badge-1.svg",
+      "references": [
+        "src/components/press/Awards.tsx"
+      ]
+    },
+    {
+      "path": "badge/badge-2.svg",
+      "references": [
+        "src/components/press/Awards.tsx"
+      ]
+    },
+    {
+      "path": "badge/badge-3.svg",
+      "references": [
+        "src/components/press/Awards.tsx"
+      ]
+    },
+    {
+      "path": "badge/badge-4.svg",
+      "references": [
+        "src/components/press/Awards.tsx"
+      ]
+    },
+    {
+      "path": "badge/badge-5.svg",
+      "references": [
+        "src/components/press/Awards.tsx"
+      ]
+    },
+    {
+      "path": "home-page-1/services-asset-1.svg",
+      "references": [
+        "src/data/services/digital-wallets.md",
+        "src/data/services/payment-solutions.md"
+      ]
+    },
+    {
+      "path": "home-page-1/services-big-data-consulting.svg",
+      "references": [
+        "src/data/services/cost-allocation-and-calculation.md",
+        "src/data/services/instantaneous-data-insights-and-analytics.md",
+        "src/data/services/monitor-and-analyze-conversions-effectively.md",
+        "src/data/services/policy-and-program-management.md",
+        "src/data/services/sales-strategy-and-management-techniques.md"
+      ]
+    },
+    {
+      "path": "home-page-1/services-crypto-lending.svg",
+      "references": [
+        "src/data/services/cryptocurrency-lending.md"
+      ]
+    },
+    {
+      "path": "home-page-1/services-customer-support.svg",
+      "references": [
+        "src/data/services/customer-support-automation.md"
+      ]
+    },
+    {
+      "path": "home-page-1/services-machine-learning-ai.svg",
+      "references": [
+        "src/data/services/machine-learning-and-ai.md"
+      ]
+    },
+    {
+      "path": "home-page-1/services-marketing-automation.svg",
+      "references": [
+        "src/data/services/marketing-automation.md"
+      ]
+    },
+    {
+      "path": "home-page-1/services-real-time-analytics.svg",
+      "references": [
+        "src/data/services/real-time-analytics.md"
+      ]
+    },
+    {
+      "path": "home-page-1/services-sales-management.svg",
+      "references": [
+        "src/data/services/sales-management.md"
+      ]
+    },
+    {
+      "path": "home-page-1/services-track-conversions.svg",
+      "references": [
+        "src/data/services/track-conversions.md"
+      ]
+    },
+    {
+      "path": "icons/apple-dark.svg",
+      "references": [
+        "src/components/authentication/SocialAuth.tsx"
+      ]
+    },
+    {
+      "path": "icons/apple.svg",
+      "references": [
+        "src/components/authentication/SocialAuth.tsx",
+        "src/components/authentication/SocialAuthV2.tsx"
+      ]
+    },
+    {
+      "path": "icons/asana-metal.svg",
+      "references": [
+        "src/components/success-stories/clients.tsx"
+      ]
+    },
+    {
+      "path": "icons/asana-v2-dark.svg",
+      "references": [
+        "src/data/customer/asana.md"
+      ]
+    },
+    {
+      "path": "icons/asana-v2.svg",
+      "references": [
+        "src/data/customer/asana.md"
+      ]
+    },
+    {
+      "path": "icons/behance.svg",
+      "references": [
+        "src/components/shared/footer/Footer.tsx"
+      ]
+    },
+    {
+      "path": "icons/check-circle.svg",
+      "references": [
+        "src/components/pricing/Features.tsx"
+      ]
+    },
+    {
+      "path": "icons/checkmark-white.svg",
+      "references": [
+        "src/components/affiliates/AffiliatesList.tsx",
+        "src/styles/common.css"
+      ]
+    },
+    {
+      "path": "icons/client-logo-1.svg",
+      "references": [
+        "src/components/white-paper/Client.tsx"
+      ]
+    },
+    {
+      "path": "icons/client-logo-2.svg",
+      "references": [
+        "src/components/white-paper/Client.tsx"
+      ]
+    },
+    {
+      "path": "icons/client-logo-3.svg",
+      "references": [
+        "src/components/white-paper/Client.tsx"
+      ]
+    },
+    {
+      "path": "icons/client-logo-4.svg",
+      "references": [
+        "src/components/white-paper/Client.tsx"
+      ]
+    },
+    {
+      "path": "icons/client-logo-5.svg",
+      "references": [
+        "src/components/white-paper/Client.tsx"
+      ]
+    },
+    {
+      "path": "icons/client-logo-dark-1.svg",
+      "references": [
+        "src/components/white-paper/Client.tsx"
+      ]
+    },
+    {
+      "path": "icons/client-logo-dark-2.svg",
+      "references": [
+        "src/components/white-paper/Client.tsx"
+      ]
+    },
+    {
+      "path": "icons/client-logo-dark-3.svg",
+      "references": [
+        "src/components/white-paper/Client.tsx"
+      ]
+    },
+    {
+      "path": "icons/client-logo-dark-4.svg",
+      "references": [
+        "src/components/white-paper/Client.tsx"
+      ]
+    },
+    {
+      "path": "icons/client-logo-dark-5.svg",
+      "references": [
+        "src/components/white-paper/Client.tsx"
+      ]
+    },
+    {
+      "path": "icons/confluence.svg",
+      "references": [
+        "src/components/home/Integration.tsx",
+        "src/components/tutorial/Integration.tsx"
+      ]
+    },
+    {
+      "path": "icons/discord-dark.svg",
+      "references": [
+        "src/data/customer/discord.md"
+      ]
+    },
+    {
+      "path": "icons/discord-metal.svg",
+      "references": [
+        "src/components/success-stories/clients.tsx"
+      ]
+    },
+    {
+      "path": "icons/discord.svg",
+      "references": [
+        "src/data/customer/discord.md"
+      ]
+    },
+    {
+      "path": "icons/dribbble.svg",
+      "references": [
+        "src/components/shared/footer/Footer.tsx"
+      ]
+    },
+    {
+      "path": "icons/dropbox-metal.svg",
+      "references": [
+        "src/components/success-stories/clients.tsx"
+      ]
+    },
+    {
+      "path": "icons/dropbox-v2-dark.svg",
+      "references": [
+        "src/data/customer/dropbox.md"
+      ]
+    },
+    {
+      "path": "icons/dropbox-v2.svg",
+      "references": [
+        "src/data/customer/dropbox.md"
+      ]
+    },
+    {
+      "path": "icons/edge.svg",
+      "references": [
+        "src/components/home/Integration.tsx",
+        "src/components/tutorial/Integration.tsx"
+      ]
+    },
+    {
+      "path": "icons/facebook-v2.svg",
+      "references": [
+        "src/components/authentication/SocialAuth.tsx",
+        "src/components/authentication/SocialAuthV2.tsx"
+      ]
+    },
+    {
+      "path": "icons/facebook.svg",
+      "references": [
+        "src/components/shared/footer/Footer.tsx"
+      ]
+    },
+    {
+      "path": "icons/figma.svg",
+      "references": [
+        "src/components/home/Integration.tsx",
+        "src/components/integration/Integration.tsx",
+        "src/components/tutorial/Integration.tsx"
+      ]
+    },
+    {
+      "path": "icons/framer.svg",
+      "references": [
+        "src/components/home/Integration.tsx",
+        "src/components/tutorial/Integration.tsx"
+      ]
+    },
+    {
+      "path": "icons/gmail.svg",
+      "references": [
+        "src/components/home/Integration.tsx",
+        "src/components/tutorial/Integration.tsx"
+      ]
+    },
+    {
+      "path": "icons/google-meet.svg",
+      "references": [
+        "src/components/tutorial/Integration.tsx"
+      ]
+    },
+    {
+      "path": "icons/google.svg",
+      "references": [
+        "src/components/authentication/SocialAuth.tsx",
+        "src/components/authentication/SocialAuthV2.tsx",
+        "src/components/home/Integration.tsx",
+        "src/components/tutorial/Integration.tsx"
+      ]
+    },
+    {
+      "path": "icons/home.svg",
+      "references": [
+        "src/components/contact-page/ContactInfo.tsx"
+      ]
+    },
+    {
+      "path": "icons/hotjar-dark.svg",
+      "references": [
+        "src/data/customer/hotjar.md"
+      ]
+    },
+    {
+      "path": "icons/hotjar-metal.svg",
+      "references": [
+        "src/components/success-stories/clients.tsx"
+      ]
+    },
+    {
+      "path": "icons/hotjar.svg",
+      "references": [
+        "src/components/success-stories/SpotlightStories.tsx",
+        "src/data/customer/hotjar.md"
+      ]
+    },
+    {
+      "path": "icons/instagram.svg",
+      "references": [
+        "src/components/shared/footer/Footer.tsx"
+      ]
+    },
+    {
+      "path": "icons/lattice-dark.svg",
+      "references": [
+        "src/data/customer/lattice.md"
+      ]
+    },
+    {
+      "path": "icons/lattice-metal.svg",
+      "references": [
+        "src/components/success-stories/clients.tsx"
+      ]
+    },
+    {
+      "path": "icons/lattice.svg",
+      "references": [
+        "src/data/customer/lattice.md"
+      ]
+    },
+    {
+      "path": "icons/linkedin.svg",
+      "references": [
+        "src/components/shared/footer/Footer.tsx"
+      ]
+    },
+    {
+      "path": "icons/mail-open.svg",
+      "references": [
+        "src/components/contact-page/ContactInfo.tsx"
+      ]
+    },
+    {
+      "path": "icons/marvel.svg",
+      "references": [
+        "src/components/home/Integration.tsx",
+        "src/components/tutorial/Integration.tsx"
+      ]
+    },
+    {
+      "path": "icons/microsoft.svg",
+      "references": [
+        "src/components/authentication/SocialAuth.tsx",
+        "src/components/authentication/SocialAuthV2.tsx",
+        "src/components/home/Integration.tsx",
+        "src/components/tutorial/Integration.tsx"
+      ]
+    },
+    {
+      "path": "icons/ms_yammer.svg",
+      "references": [
+        "src/components/home/Integration.tsx",
+        "src/components/tutorial/Integration.tsx"
+      ]
+    },
+    {
+      "path": "icons/new-arrow.svg",
+      "references": [
+        "src/components/referral-program/StepDirection.tsx"
+      ]
+    },
+    {
+      "path": "icons/notion-metal.svg",
+      "references": [
+        "src/components/success-stories/clients.tsx"
+      ]
+    },
+    {
+      "path": "icons/notion-v2-dark.svg",
+      "references": [
+        "src/data/customer/notion.md"
+      ]
+    },
+    {
+      "path": "icons/notion-v2.svg",
+      "references": [
+        "src/components/success-stories/SpotlightStories.tsx",
+        "src/data/customer/notion.md"
+      ]
+    },
+    {
+      "path": "icons/outreach-dark.svg",
+      "references": [
+        "src/data/customer/outreach.md"
+      ]
+    },
+    {
+      "path": "icons/outreach-metal.svg",
+      "references": [
+        "src/components/success-stories/clients.tsx"
+      ]
+    },
+    {
+      "path": "icons/outreach.svg",
+      "references": [
+        "src/data/customer/outreach.md"
+      ]
+    },
+    {
+      "path": "icons/phone-right.svg",
+      "references": [
+        "src/components/contact-page/ContactInfo.tsx"
+      ]
+    },
+    {
+      "path": "icons/scapic-dark.svg",
+      "references": [
+        "src/data/customer/scapic.md"
+      ]
+    },
+    {
+      "path": "icons/scapic-metal.svg",
+      "references": [
+        "src/components/success-stories/clients.tsx"
+      ]
+    },
+    {
+      "path": "icons/scapic.svg",
+      "references": [
+        "src/components/success-stories/SpotlightStories.tsx",
+        "src/data/customer/scapic.md"
+      ]
+    },
+    {
+      "path": "icons/shopify.svg",
+      "references": [
+        "src/components/integration/Integration.tsx"
+      ]
+    },
+    {
+      "path": "icons/slack.svg",
+      "references": [
+        "src/components/home/Integration.tsx",
+        "src/components/integration/Integration.tsx",
+        "src/components/tutorial/Integration.tsx"
+      ]
+    },
+    {
+      "path": "icons/snapchat.svg",
+      "references": [
+        "src/components/home/Integration.tsx",
+        "src/components/integration/Integration.tsx",
+        "src/components/tutorial/Integration.tsx"
+      ]
+    },
+    {
+      "path": "icons/spotify-dark.svg",
+      "references": [
+        "src/data/customer/spotify.md"
+      ]
+    },
+    {
+      "path": "icons/spotify-metal.svg",
+      "references": [
+        "src/components/success-stories/clients.tsx"
+      ]
+    },
+    {
+      "path": "icons/spotify.svg",
+      "references": [
+        "src/data/customer/spotify.md"
+      ]
+    },
+    {
+      "path": "icons/squarespace-dark.svg",
+      "references": [
+        "src/data/customer/squarespace.md"
+      ]
+    },
+    {
+      "path": "icons/squarespace-metal.svg",
+      "references": [
+        "src/components/success-stories/clients.tsx"
+      ]
+    },
+    {
+      "path": "icons/squarespace.svg",
+      "references": [
+        "src/data/customer/squarespace.md"
+      ]
+    },
+    {
+      "path": "icons/stripe-dark.svg",
+      "references": [
+        "src/data/customer/stripe.md"
+      ]
+    },
+    {
+      "path": "icons/stripe-metal.svg",
+      "references": [
+        "src/components/success-stories/clients.tsx"
+      ]
+    },
+    {
+      "path": "icons/stripe.svg",
+      "references": [
+        "src/components/success-stories/SpotlightStories.tsx",
+        "src/data/customer/stripe.md"
+      ]
+    },
+    {
+      "path": "icons/thumbs-up.svg",
+      "references": [
+        "src/components/pricing/Features.tsx"
+      ]
+    },
+    {
+      "path": "icons/tiktok.svg",
+      "references": [
+        "src/components/integration/Integration.tsx"
+      ]
+    },
+    {
+      "path": "icons/trustpilot-logo.svg",
+      "references": [
+        "src/components/team/Testimonial.tsx"
+      ]
+    },
+    {
+      "path": "icons/users.svg",
+      "references": [
+        "src/components/pricing/Features.tsx"
+      ]
+    },
+    {
+      "path": "icons/vl-white.svg",
+      "references": [
+        "src/components/tutorial/Integration.tsx"
+      ]
+    },
+    {
+      "path": "icons/vl.svg",
+      "references": [
+        "src/components/tutorial/Integration.tsx"
+      ]
+    },
+    {
+      "path": "icons/youtube.svg",
+      "references": [
+        "src/components/shared/footer/Footer.tsx"
+      ]
+    },
+    {
+      "path": "icons/zapier.svg",
+      "references": [
+        "src/components/integration/Integration.tsx"
+      ]
+    },
+    {
+      "path": "layers-2x.png",
+      "references": [
+        "src/styles/vendor/leaflet.min.css"
+      ]
+    },
+    {
+      "path": "layers.png",
+      "references": [
+        "src/styles/vendor/leaflet.min.css"
+      ]
+    },
+    {
+      "path": "marker-icon.png",
+      "references": [
+        "src/styles/vendor/leaflet.min.css"
+      ]
+    },
+    {
+      "path": "ns-author-avatar-bg.png",
+      "references": [
+        "src/components/about/OurMission.tsx",
+        "src/components/services/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-avatar-1.png",
+      "references": [
+        "src/components/about/OurMission.tsx",
+        "src/components/services/Features.tsx",
+        "src/data/blogs/raising-your-first-round-saas-fundraising-tips-from-the-trenches.md",
+        "src/data/blogs/take-control-of-your-online-banking-and-earn-rewards..md",
+        "src/data/customer/asana.md",
+        "src/data/customer/squarespace.md",
+        "src/data/json/team/team.json",
+        "src/data/json/testimonials/testimonials.json",
+        "src/data/services/cryptocurrency-lending.md",
+        "src/data/services/policy-and-program-management.md",
+        "src/data/team/cody-fisher.md",
+        "src/data/team/matthewhernandez.md"
+      ]
+    },
+    {
+      "path": "ns-avatar-10.png",
+      "references": [
+        "src/data/case-study/eduFlow-digital-learning-transformation.md",
+        "src/data/customer/hotjar.md",
+        "src/data/json/team/team.json",
+        "src/data/team/christopherrodriguez.md"
+      ]
+    },
+    {
+      "path": "ns-avatar-11.png",
+      "references": [
+        "src/data/blogs/how-ai-is-transforming-modern-business-operations-solutions.md",
+        "src/data/case-study/studio-north-creative-workflow-automation.md",
+        "src/data/customer/hotjar.md",
+        "src/data/services/automated-background-replacement.md",
+        "src/data/services/big-data-consulting.md",
+        "src/data/team/danielmartinez.md"
+      ]
+    },
+    {
+      "path": "ns-avatar-12.png",
+      "references": [
+        "src/components/about/Team.tsx",
+        "src/data/customer/hotjar.md"
+      ]
+    },
+    {
+      "path": "ns-avatar-13.png",
+      "references": [
+        "src/data/customer/lattice.md",
+        "src/data/services/batch-image-processing.md"
+      ]
+    },
+    {
+      "path": "ns-avatar-14.png",
+      "references": [
+        "src/data/customer/lattice.md"
+      ]
+    },
+    {
+      "path": "ns-avatar-15.png",
+      "references": [
+        "src/components/shared/testimonial/TestimonialLarge.tsx",
+        "src/components/shared/testimonial/TestimonialMobile.tsx",
+        "src/data/case-study/ai-powered-patient-care-solutions-in-healthcare.md",
+        "src/data/customer/lattice.md"
+      ]
+    },
+    {
+      "path": "ns-avatar-16.png",
+      "references": [
+        "src/components/shared/testimonial/TestimonialLarge.tsx",
+        "src/components/shared/testimonial/TestimonialMobile.tsx",
+        "src/data/customer/notion.md"
+      ]
+    },
+    {
+      "path": "ns-avatar-17.png",
+      "references": [
+        "src/components/shared/testimonial/TestimonialLarge.tsx",
+        "src/components/shared/testimonial/TestimonialMobile.tsx",
+        "src/components/success-stories/SpotlightStories.tsx",
+        "src/data/customer/notion.md"
+      ]
+    },
+    {
+      "path": "ns-avatar-18.png",
+      "references": [
+        "src/data/case-study/proven-results-with-measurable-outcomes.md",
+        "src/data/customer/notion.md",
+        "src/data/services/track-conversions.md"
+      ]
+    },
+    {
+      "path": "ns-avatar-19.png",
+      "references": [
+        "src/data/case-study/risk-management-tools-for-finance-sectors.md",
+        "src/data/customer/outreach.md"
+      ]
+    },
+    {
+      "path": "ns-avatar-2.png",
+      "references": [
+        "src/components/about/OurMission.tsx",
+        "src/components/about/Team.tsx",
+        "src/components/services/Features.tsx",
+        "src/data/blogs/a-customized-electronic-prescription-designed-specifically.md",
+        "src/data/blogs/maximizing-productivity-in-remote-work-environments.md",
+        "src/data/case-study/bright-path-customer-engagement-and-retention.md",
+        "src/data/customer/asana.md",
+        "src/data/customer/squarespace.md",
+        "src/data/json/team/team.json",
+        "src/data/json/testimonials/testimonials.json",
+        "src/data/services/customer-support-automation.md",
+        "src/data/team/anthonylopez.md",
+        "src/data/team/jamessmith.md"
+      ]
+    },
+    {
+      "path": "ns-avatar-20.png",
+      "references": [
+        "src/components/success-stories/SpotlightStories.tsx",
+        "src/data/case-study/retail-analytics-for-better-insights.md",
+        "src/data/customer/outreach.md"
+      ]
+    },
+    {
+      "path": "ns-avatar-21.png",
+      "references": [
+        "src/components/shared/testimonial/TestimonialLarge.tsx",
+        "src/components/shared/testimonial/TestimonialMobile.tsx",
+        "src/components/success-stories/SpotlightStories.tsx",
+        "src/data/customer/outreach.md"
+      ]
+    },
+    {
+      "path": "ns-avatar-22.png",
+      "references": [
+        "src/components/shared/testimonial/TestimonialLarge.tsx",
+        "src/components/shared/testimonial/TestimonialMobile.tsx",
+        "src/data/customer/scapic.md"
+      ]
+    },
+    {
+      "path": "ns-avatar-23.png",
+      "references": [
+        "src/components/shared/testimonial/TestimonialLarge.tsx",
+        "src/components/shared/testimonial/TestimonialMobile.tsx",
+        "src/components/success-stories/SpotlightStories.tsx",
+        "src/data/customer/scapic.md"
+      ]
+    },
+    {
+      "path": "ns-avatar-24.png",
+      "references": [
+        "src/data/customer/scapic.md"
+      ]
+    },
+    {
+      "path": "ns-avatar-25.png",
+      "references": [
+        "src/data/customer/spotify.md"
+      ]
+    },
+    {
+      "path": "ns-avatar-26.png",
+      "references": [
+        "src/data/customer/spotify.md"
+      ]
+    },
+    {
+      "path": "ns-avatar-27.png",
+      "references": [
+        "src/data/customer/spotify.md"
+      ]
+    },
+    {
+      "path": "ns-avatar-3.png",
+      "references": [
+        "src/components/about/OurMission.tsx",
+        "src/components/about/Team.tsx",
+        "src/components/services/Features.tsx",
+        "src/data/blogs/5-strategies-for-effective-brand-storytelling.md",
+        "src/data/blogs/ai-trends-to-watch-in-2025.md",
+        "src/data/blogs/efficient-banking-operations.md",
+        "src/data/blogs/essential-data-security-best-practices-for-2024.md",
+        "src/data/blogs/exploring-the-future-of-digital-creativity.md",
+        "src/data/blogs/we-ve-mastered-the-Craft-of-efficient-operations.md",
+        "src/data/case-study/cove-financial-risk-management-and-compliance.md",
+        "src/data/case-study/startup-x-scaling-with-ai-driven-insights.md",
+        "src/data/customer/asana.md",
+        "src/data/customer/squarespace.md",
+        "src/data/json/team/team.json",
+        "src/data/json/testimonials/testimonials.json",
+        "src/data/services/business-continuity-management.md",
+        "src/data/services/digital-wallets.md",
+        "src/data/team/robertjohnson.md"
+      ]
+    },
+    {
+      "path": "ns-avatar-4.png",
+      "references": [
+        "src/data/blogs/building-outstanding-customer-experience-strategies.md",
+        "src/data/blogs/building-resilient-business-models.md",
+        "src/data/blogs/how-to-take-control-of-your-online-banking.md",
+        "src/data/case-study/studio-north-creative-project-workflow-automation.md",
+        "src/data/customer/discord.md",
+        "src/data/customer/stripe.md",
+        "src/data/json/team/team.json",
+        "src/data/json/testimonials/testimonials.json",
+        "src/data/services/cloud-integration.md",
+        "src/data/services/cost-allocation-and-calculation.md",
+        "src/data/services/marketing-automation.md",
+        "src/data/team/donaldwilson.md",
+        "src/data/team/michaelwilliams.md"
+      ]
+    },
+    {
+      "path": "ns-avatar-5.png",
+      "references": [
+        "src/components/about/Team.tsx",
+        "src/components/analytics/AnalyticsTestimonial.tsx",
+        "src/data/blogs/an-electronic-prescription-finance.md",
+        "src/data/blogs/complete-guide-to-digital-transformation-in-2024.md",
+        "src/data/blogs/mastering-operational-efficiency-in-modern-banking.md",
+        "src/data/blogs/the-essentials-of-user-centered-design.md",
+        "src/data/case-study/greenVolt-renewable-energy-analytics.md",
+        "src/data/case-study/monaco-type-foundry-digital-asset-licensing-and-distribution.md",
+        "src/data/customer/discord.md",
+        "src/data/customer/stripe.md",
+        "src/data/json/team/team.json",
+        "src/data/json/testimonials/testimonials.json",
+        "src/data/services/machine-learning-and-ai.md",
+        "src/data/services/monitor-and-analyze-conversions-effectively.md",
+        "src/data/services/payment-solutions.md",
+        "src/data/team/davidbrown.md",
+        "src/data/team/stevenanderson.md"
+      ]
+    },
+    {
+      "path": "ns-avatar-6.png",
+      "references": [
+        "src/components/blog-details/Comment.tsx",
+        "src/data/blogs/digital-is-making-place-in-funds-back-office.md",
+        "src/data/blogs/modern-web-development-best-practices.md",
+        "src/data/case-study/lumina-ai-intelligent-customer-support-automation.md",
+        "src/data/case-study/medicore-patient-data-management-and-care-optimization.md",
+        "src/data/customer/discord.md",
+        "src/data/customer/stripe.md",
+        "src/data/json/team/team.json",
+        "src/data/json/testimonials/testimonials.json",
+        "src/data/services/instantaneous-data-insights-and-analytics.md",
+        "src/data/services/real-time-analytics.md",
+        "src/data/services/sales-management.md",
+        "src/data/team/paulthomas.md",
+        "src/data/team/williamjones.md"
+      ]
+    },
+    {
+      "path": "ns-avatar-7.png",
+      "references": [
+        "src/components/about/OurMission.tsx",
+        "src/components/services/Features.tsx",
+        "src/data/blogs/aI-powered-compliance-the-new-backbone-of-fund-operations.md",
+        "src/data/blogs/decoding-saas-consolidation-what-it-means-for-founders.md",
+        "src/data/blogs/product-led-growth-vs-sales-led-growth-which-one-wins.md",
+        "src/data/case-study/skyLogix-logistics-and-supply-chain-optimization.md",
+        "src/data/customer/dropbox.md",
+        "src/data/json/team/team.json",
+        "src/data/json/testimonials/testimonials.json",
+        "src/data/services/business-analysis.md",
+        "src/data/services/sales-strategy-and-management-techniques.md",
+        "src/data/team/josephgarcia.md"
+      ]
+    },
+    {
+      "path": "ns-avatar-8.png",
+      "references": [
+        "src/data/blogs/implementing-sustainable-business-practices-for-growth.md",
+        "src/data/blogs/our-saas-seo-strategy-6-months-300-organic-traffic-growth.md",
+        "src/data/customer/dropbox.md",
+        "src/data/json/team/team.json",
+        "src/data/json/testimonials/testimonials.json",
+        "src/data/team/charles-miller.md"
+      ]
+    },
+    {
+      "path": "ns-avatar-9.png",
+      "references": [
+        "src/components/home/Hero.tsx",
+        "src/data/blogs/10-Proven-Marketing-Strategies-for-Rapid-Business-Growth.md",
+        "src/data/blogs/how-digital-portals-reshape-investor-relations.md",
+        "src/data/blogs/the-impact-of-ai-on-modern-business-operations-and-growth.md",
+        "src/data/case-study/mediCore-ai-in-healthcare-operations.md",
+        "src/data/customer/dropbox.md",
+        "src/data/json/team/team.json",
+        "src/data/json/testimonials/testimonials.json",
+        "src/data/team/thomasdavis.md"
+      ]
+    },
+    {
+      "path": "ns-img-10.svg",
+      "references": [
+        "src/data/services/automated-background-replacement.md"
+      ]
+    },
+    {
+      "path": "ns-img-11.svg",
+      "references": [
+        "src/data/services/batch-image-processing.md"
+      ]
+    },
+    {
+      "path": "ns-img-12.svg",
+      "references": [
+        "src/data/services/big-data-consulting.md",
+        "src/data/services/business-continuity-management.md",
+        "src/data/services/cloud-integration.md"
+      ]
+    },
+    {
+      "path": "ns-img-13.svg",
+      "references": [
+        "src/data/services/business-analysis.md"
+      ]
+    },
+    {
+      "path": "ns-img-14.png",
+      "references": [
+        "src/components/case-study/Feature.tsx",
+        "src/components/features/Feature.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-149.png",
+      "references": [
+        "src/components/process/ProcessStep.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-208.png",
+      "references": [
+        "src/components/why-choose-us/Feature.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-235.svg",
+      "references": [
+        "src/components/features/WhyChooseUs.tsx",
+        "src/components/home/WhyChooseUs.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-24.png",
+      "references": [
+        "src/components/integration/Integration.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-240.png",
+      "references": [
+        "src/components/about/WhyChooseUs.tsx",
+        "src/components/features/WhyChooseUs.tsx",
+        "src/components/home/WhyChooseUs.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-25.png",
+      "references": [
+        "src/components/services/Pricing.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-294.png",
+      "references": [
+        "src/data/case-study/monaco-type-foundry-digital-asset-licensing-and-distribution.md"
+      ]
+    },
+    {
+      "path": "ns-img-30.png",
+      "references": [
+        "src/components/pricing/Benefits.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-336.svg",
+      "references": [
+        "src/components/why-choose-us/CTA.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-337.svg",
+      "references": [
+        "src/components/why-choose-us/CTA.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-352.png",
+      "references": [
+        "src/components/about/WhyChooseUs.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-353.png",
+      "references": [
+        "src/components/about/VisionStatement.tsx",
+        "src/components/use-case/FeatureIntro.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-354.png",
+      "references": [
+        "src/components/about/VisionStatement.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-355.png",
+      "references": [
+        "src/components/about/VisionStatement.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-36.png",
+      "references": [
+        "src/components/pricing/Benefits.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-367.png",
+      "references": [
+        "src/components/analytics/AnalyticsDetails.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-368.png",
+      "references": [
+        "src/components/analytics/AnalyticsDetails.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-369.png",
+      "references": [
+        "src/components/analytics/AnalyticsDetails.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-37.png",
+      "references": [
+        "src/components/pricing/Benefits.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-370.png",
+      "references": [
+        "src/components/affiliate-policy/Guideline.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-371.png",
+      "references": [
+        "src/components/affiliates/AffiliateProgram.tsx",
+        "src/data/case-study/lumina-ai-intelligent-customer-support-automation.md"
+      ]
+    },
+    {
+      "path": "ns-img-374.jpg",
+      "references": [
+        "src/components/authentication/LoginHero.tsx",
+        "src/components/authentication/SignupHero.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-376.svg",
+      "references": [
+        "src/components/brand-kit/Content.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-377.svg",
+      "references": [
+        "src/components/brand-kit/Content.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-378.svg",
+      "references": [
+        "src/components/brand-kit/Content.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-379.png",
+      "references": [
+        "src/components/career/CareerContent.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-38.png",
+      "references": [
+        "src/components/pricing/Benefits.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-380.png",
+      "references": [
+        "src/components/case-study/CaseStudy.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-381.jpg",
+      "references": [
+        "src/data/json/changelog/changelog.json"
+      ]
+    },
+    {
+      "path": "ns-img-382.jpg",
+      "references": [
+        "src/data/json/changelog/changelog.json"
+      ]
+    },
+    {
+      "path": "ns-img-383.jpg",
+      "references": [
+        "src/data/json/changelog/changelog.json"
+      ]
+    },
+    {
+      "path": "ns-img-384.png",
+      "references": [
+        "src/components/download/Content.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-385.png",
+      "references": [
+        "src/components/tutorial/Banner.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-386.png",
+      "references": [
+        "src/components/tutorial/Tutorials.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-387.png",
+      "references": [
+        "src/components/tutorial/Tutorials.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-388.png",
+      "references": [
+        "src/components/tutorial/Tutorials.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-39.png",
+      "references": [
+        "src/components/pricing/Benefits.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-390.jpg",
+      "references": [
+        "src/components/press/SaasInnovation.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-391.png",
+      "references": [
+        "src/components/privacy/PrivacyContent.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-392.svg",
+      "references": [
+        "src/components/services/Solutions.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-394.svg",
+      "references": [
+        "src/components/services/Solutions.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-396.svg",
+      "references": [
+        "src/components/services/Solutions.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-397.png",
+      "references": [
+        "src/data/services/automated-background-replacement.md",
+        "src/data/services/batch-image-processing.md",
+        "src/data/services/big-data-consulting.md",
+        "src/data/services/business-analysis.md",
+        "src/data/services/business-continuity-management.md",
+        "src/data/services/cloud-integration.md",
+        "src/data/services/cost-allocation-and-calculation.md",
+        "src/data/services/cryptocurrency-lending.md",
+        "src/data/services/customer-support-automation.md",
+        "src/data/services/digital-wallets.md",
+        "src/data/services/instantaneous-data-insights-and-analytics.md",
+        "src/data/services/machine-learning-and-ai.md",
+        "src/data/services/marketing-automation.md",
+        "src/data/services/monitor-and-analyze-conversions-effectively.md",
+        "src/data/services/payment-solutions.md",
+        "src/data/services/policy-and-program-management.md",
+        "src/data/services/real-time-analytics.md",
+        "src/data/services/sales-management.md",
+        "src/data/services/sales-strategy-and-management-techniques.md",
+        "src/data/services/track-conversions.md"
+      ]
+    },
+    {
+      "path": "ns-img-398.png",
+      "references": [
+        "src/data/services/automated-background-replacement.md",
+        "src/data/services/batch-image-processing.md",
+        "src/data/services/big-data-consulting.md",
+        "src/data/services/business-analysis.md",
+        "src/data/services/business-continuity-management.md",
+        "src/data/services/cloud-integration.md",
+        "src/data/services/cost-allocation-and-calculation.md",
+        "src/data/services/cryptocurrency-lending.md",
+        "src/data/services/customer-support-automation.md",
+        "src/data/services/digital-wallets.md",
+        "src/data/services/instantaneous-data-insights-and-analytics.md",
+        "src/data/services/machine-learning-and-ai.md",
+        "src/data/services/marketing-automation.md",
+        "src/data/services/monitor-and-analyze-conversions-effectively.md",
+        "src/data/services/payment-solutions.md",
+        "src/data/services/policy-and-program-management.md",
+        "src/data/services/real-time-analytics.md",
+        "src/data/services/sales-management.md",
+        "src/data/services/sales-strategy-and-management-techniques.md",
+        "src/data/services/track-conversions.md"
+      ]
+    },
+    {
+      "path": "ns-img-40.png",
+      "references": [
+        "src/components/pricing/Benefits.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-401.jpg",
+      "references": [
+        "src/components/support/NeedHelp.tsx",
+        "src/data/blogs/5-strategies-for-effective-brand-storytelling.md"
+      ]
+    },
+    {
+      "path": "ns-img-402.jpg",
+      "references": [
+        "src/components/support/Contact.tsx",
+        "src/data/blogs/aI-powered-compliance-the-new-backbone-of-fund-operations.md"
+      ]
+    },
+    {
+      "path": "ns-img-404.jpg",
+      "references": [
+        "src/data/blogs/a-customized-electronic-prescription-designed-specifically.md"
+      ]
+    },
+    {
+      "path": "ns-img-405.jpg",
+      "references": [
+        "src/data/blogs/ai-trends-to-watch-in-2025.md",
+        "src/data/case-study/ai-powered-patient-care-solutions-in-healthcare.md",
+        "src/data/whitepaper/the-future-of-saas-automation-2025-report.md"
+      ]
+    },
+    {
+      "path": "ns-img-406.jpg",
+      "references": [
+        "src/data/blogs/an-electronic-prescription-finance.md",
+        "src/data/whitepaper/scaling-securely-in-the-cloud.md"
+      ]
+    },
+    {
+      "path": "ns-img-407.jpg",
+      "references": [
+        "src/data/blogs/building-outstanding-customer-experience-strategies.md",
+        "src/data/case-study/medicore-patient-data-management-and-care-optimization.md",
+        "src/data/whitepaper/customer-retention-in-subscription-models.md"
+      ]
+    },
+    {
+      "path": "ns-img-408.jpg",
+      "references": [
+        "src/data/blogs/building-resilient-business-models.md",
+        "src/data/case-study/proven-results-with-measurable-outcomes.md",
+        "src/data/whitepaper/design-systems-for-enterprise-saas.md"
+      ]
+    },
+    {
+      "path": "ns-img-409.jpg",
+      "references": [
+        "src/data/blogs/complete-guide-to-digital-transformation-in-2024.md",
+        "src/data/whitepaper/ai-in-product-onboarding-whats-next.md"
+      ]
+    },
+    {
+      "path": "ns-img-41.png",
+      "references": [
+        "src/components/pricing/Benefits.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-410.jpg",
+      "references": [
+        "src/data/blogs/decoding-saas-consolidation-what-it-means-for-founders.md",
+        "src/data/case-study/greenVolt-renewable-energy-analytics.md",
+        "src/data/whitepaper/optimizing-saas-pricing-strategies.md"
+      ]
+    },
+    {
+      "path": "ns-img-411.jpg",
+      "references": [
+        "src/data/blogs/digital-is-making-place-in-funds-back-office.md",
+        "src/data/case-study/eduFlow-digital-learning-transformation.md",
+        "src/data/whitepaper/building-resilient-saas-architectures.md"
+      ]
+    },
+    {
+      "path": "ns-img-412.jpg",
+      "references": [
+        "src/data/blogs/efficient-banking-operations.md",
+        "src/data/case-study/retail-analytics-for-better-insights.md",
+        "src/data/whitepaper/the-rise-of-api-first-platforms.md"
+      ]
+    },
+    {
+      "path": "ns-img-413.jpg",
+      "references": [
+        "src/data/blogs/essential-data-security-best-practices-for-2024.md",
+        "src/data/case-study/cove-financial-risk-management-and-compliance.md",
+        "src/data/whitepaper/from-onboarding-to-advocacy.md"
+      ]
+    },
+    {
+      "path": "ns-img-414.jpg",
+      "references": [
+        "src/data/blogs/exploring-the-future-of-digital-creativity.md",
+        "src/data/case-study/risk-management-tools-for-finance-sectors.md",
+        "src/data/whitepaper/subscription-analytics-that-matter.md"
+      ]
+    },
+    {
+      "path": "ns-img-415.jpg",
+      "references": [
+        "src/data/blogs/how-ai-is-transforming-modern-business-operations-solutions.md",
+        "src/data/case-study/skyLogix-logistics-and-supply-chain-optimization.md",
+        "src/data/whitepaper/the-impact-of-ai-on-product-led-growth.md"
+      ]
+    },
+    {
+      "path": "ns-img-416.jpg",
+      "references": [
+        "src/data/blogs/how-digital-portals-reshape-investor-relations.md",
+        "src/data/case-study/bright-path-customer-engagement-and-retention.md",
+        "src/data/whitepaper/designing-for-multi-device-experiences.md"
+      ]
+    },
+    {
+      "path": "ns-img-417.jpg",
+      "references": [
+        "src/data/blogs/how-to-take-control-of-your-online-banking.md",
+        "src/data/case-study/startup-x-scaling-with-ai-driven-insights.md",
+        "src/data/whitepaper/automating-customer-support-with-ai.md"
+      ]
+    },
+    {
+      "path": "ns-img-418.jpg",
+      "references": [
+        "src/data/blogs/implementing-sustainable-business-practices-for-growth.md"
+      ]
+    },
+    {
+      "path": "ns-img-419.jpg",
+      "references": [
+        "src/components/shared/navbar/CompanyMenu.tsx",
+        "src/data/blogs/mastering-operational-efficiency-in-modern-banking.md"
+      ]
+    },
+    {
+      "path": "ns-img-420.jpg",
+      "references": [
+        "src/data/blogs/maximizing-productivity-in-remote-work-environments.md"
+      ]
+    },
+    {
+      "path": "ns-img-421.jpg",
+      "references": [
+        "src/data/blogs/modern-web-development-best-practices.md"
+      ]
+    },
+    {
+      "path": "ns-img-422.jpg",
+      "references": [
+        "src/data/blogs/our-saas-seo-strategy-6-months-300-organic-traffic-growth.md"
+      ]
+    },
+    {
+      "path": "ns-img-423.jpg",
+      "references": [
+        "src/data/blogs/product-led-growth-vs-sales-led-growth-which-one-wins.md"
+      ]
+    },
+    {
+      "path": "ns-img-424.jpg",
+      "references": [
+        "src/data/blogs/raising-your-first-round-saas-fundraising-tips-from-the-trenches.md"
+      ]
+    },
+    {
+      "path": "ns-img-425.jpg",
+      "references": [
+        "src/data/blogs/take-control-of-your-online-banking-and-earn-rewards..md"
+      ]
+    },
+    {
+      "path": "ns-img-426.jpg",
+      "references": [
+        "src/data/blogs/the-essentials-of-user-centered-design.md"
+      ]
+    },
+    {
+      "path": "ns-img-427.jpg",
+      "references": [
+        "src/data/blogs/the-impact-of-ai-on-modern-business-operations-and-growth.md"
+      ]
+    },
+    {
+      "path": "ns-img-428.png",
+      "references": [
+        "src/components/customer-details/Content.tsx",
+        "src/components/tutorial/BlogTabContent.tsx",
+        "src/data/blogs/we-ve-mastered-the-Craft-of-efficient-operations.md"
+      ]
+    },
+    {
+      "path": "ns-img-435.png",
+      "references": [
+        "src/data/blogs/10-Proven-Marketing-Strategies-for-Rapid-Business-Growth.md"
+      ]
+    },
+    {
+      "path": "ns-img-440.png",
+      "references": [
+        "src/data/case-study/studio-north-creative-project-workflow-automation.md"
+      ]
+    },
+    {
+      "path": "ns-img-441.png",
+      "references": [
+        "src/data/case-study/studio-north-creative-workflow-automation.md"
+      ]
+    },
+    {
+      "path": "ns-img-459.png",
+      "references": [
+        "src/components/tutorial/BlogTabContent.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-460.png",
+      "references": [
+        "src/components/tutorial/BlogTabContent.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-461.png",
+      "references": [
+        "src/components/tutorial/BlogTabContent.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-462.png",
+      "references": [
+        "src/components/tutorial/BlogTabContent.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-463.png",
+      "references": [
+        "src/components/tutorial/BlogTabContent.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-464.png",
+      "references": [
+        "src/data/blogs/10-Proven-Marketing-Strategies-for-Rapid-Business-Growth.md",
+        "src/data/blogs/5-strategies-for-effective-brand-storytelling.md",
+        "src/data/blogs/a-customized-electronic-prescription-designed-specifically.md",
+        "src/data/blogs/aI-powered-compliance-the-new-backbone-of-fund-operations.md",
+        "src/data/blogs/ai-trends-to-watch-in-2025.md",
+        "src/data/blogs/an-electronic-prescription-finance.md",
+        "src/data/blogs/building-outstanding-customer-experience-strategies.md",
+        "src/data/blogs/building-resilient-business-models.md",
+        "src/data/blogs/complete-guide-to-digital-transformation-in-2024.md",
+        "src/data/blogs/decoding-saas-consolidation-what-it-means-for-founders.md",
+        "src/data/blogs/digital-is-making-place-in-funds-back-office.md",
+        "src/data/blogs/efficient-banking-operations.md",
+        "src/data/blogs/essential-data-security-best-practices-for-2024.md",
+        "src/data/blogs/exploring-the-future-of-digital-creativity.md",
+        "src/data/blogs/how-ai-is-transforming-modern-business-operations-solutions.md",
+        "src/data/blogs/how-digital-portals-reshape-investor-relations.md",
+        "src/data/blogs/how-to-take-control-of-your-online-banking.md",
+        "src/data/blogs/implementing-sustainable-business-practices-for-growth.md",
+        "src/data/blogs/mastering-operational-efficiency-in-modern-banking.md",
+        "src/data/blogs/maximizing-productivity-in-remote-work-environments.md",
+        "src/data/blogs/modern-web-development-best-practices.md",
+        "src/data/blogs/our-saas-seo-strategy-6-months-300-organic-traffic-growth.md",
+        "src/data/blogs/product-led-growth-vs-sales-led-growth-which-one-wins.md",
+        "src/data/blogs/raising-your-first-round-saas-fundraising-tips-from-the-trenches.md",
+        "src/data/blogs/take-control-of-your-online-banking-and-earn-rewards..md",
+        "src/data/blogs/the-essentials-of-user-centered-design.md",
+        "src/data/blogs/the-impact-of-ai-on-modern-business-operations-and-growth.md",
+        "src/data/blogs/we-ve-mastered-the-Craft-of-efficient-operations.md"
+      ]
+    },
+    {
+      "path": "ns-img-467.png",
+      "references": [
+        "src/data/case-study/mediCore-ai-in-healthcare-operations.md"
+      ]
+    },
+    {
+      "path": "ns-img-49.png",
+      "references": [
+        "src/components/process/ProcessOperation.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-495.png",
+      "references": [
+        "src/components/support/Services.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-496.png",
+      "references": [
+        "src/components/home/PricingCard.tsx",
+        "src/components/pricing/Pricing.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-497.png",
+      "references": [
+        "src/components/about/CTA.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-498.png",
+      "references": [
+        "src/app/not-found.tsx",
+        "src/components/contact-page/ContactInfo.tsx",
+        "src/components/team-details/TeamMemberImg.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-499.png",
+      "references": [
+        "src/components/services/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-501.png",
+      "references": [
+        "src/components/shared/reviews/GradientOverlay.tsx",
+        "src/components/team/Testimonial.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-508.png",
+      "references": [
+        "src/components/home/Hero.tsx",
+        "src/components/support/Services.tsx",
+        "src/components/tutorial/Integration.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-509.png",
+      "references": [
+        "src/components/contact-page/ContactInfo.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-510.png",
+      "references": [
+        "src/components/contact-page/ContactInfo.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-515.png",
+      "references": [
+        "src/components/documentation/DocsContent.tsx",
+        "src/components/support/Services.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-516.png",
+      "references": [
+        "src/components/team-details/TeamMemberImg.tsx",
+        "src/components/tutorial/Services.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-523.png",
+      "references": [
+        "src/components/use-case/OperationCards.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-532.png",
+      "references": [
+        "src/components/shared/footer/Footer.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-533.png",
+      "references": [
+        "src/components/career/JobOverview.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-534.png",
+      "references": [
+        "src/components/home/Hero.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-57.png",
+      "references": [
+        "src/components/testimonial/Integration.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-58.svg",
+      "references": [
+        "src/components/testimonial/Integration.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-59.svg",
+      "references": [
+        "src/components/testimonial/Integration.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-64.svg",
+      "references": [
+        "src/components/home/Hero.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-65.svg",
+      "references": [
+        "src/components/home/Hero.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-66.svg",
+      "references": [
+        "src/components/home/Hero.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-67.png",
+      "references": [
+        "src/components/career/Features.tsx",
+        "src/components/home/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-68.png",
+      "references": [
+        "src/components/career/Features.tsx",
+        "src/components/home/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-69.png",
+      "references": [
+        "src/components/career/Features.tsx",
+        "src/components/home/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-7.svg",
+      "references": [
+        "src/components/about/WhyChooseUs.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-70.png",
+      "references": [
+        "src/components/career/Features.tsx",
+        "src/components/home/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-71.png",
+      "references": [
+        "src/components/career/Features.tsx",
+        "src/components/home/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-72.png",
+      "references": [
+        "src/components/career/Features.tsx",
+        "src/components/home/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-73.png",
+      "references": [
+        "src/components/home/FinanceIntro.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-74.png",
+      "references": [
+        "src/components/features/WhyChooseUs.tsx",
+        "src/components/home/WhyChooseUs.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-75.png",
+      "references": [
+        "src/components/home/Hero.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-77.png",
+      "references": [
+        "src/components/analytics/AnalyticsHero.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-78.png",
+      "references": [
+        "src/components/analytics/AnalyticsHero.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-79.png",
+      "references": [
+        "src/components/analytics/AnalyticsHero.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-81.png",
+      "references": [
+        "src/components/team/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-90.png",
+      "references": [
+        "src/components/features/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-91.png",
+      "references": [
+        "src/components/features/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-92.png",
+      "references": [
+        "src/components/features/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-93.png",
+      "references": [
+        "src/components/features/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-94.png",
+      "references": [
+        "src/components/features/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-96.png",
+      "references": [
+        "src/components/team/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-97.png",
+      "references": [
+        "src/components/team/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-103.png",
+      "references": [
+        "src/components/process/ProcessStep.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-11.png",
+      "references": [
+        "src/components/pricing/Benefits.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-141.png",
+      "references": [
+        "src/components/why-choose-us/Feature.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-157.svg",
+      "references": [
+        "src/components/features/WhyChooseUs.tsx",
+        "src/components/home/WhyChooseUs.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-161.png",
+      "references": [
+        "src/components/about/WhyChooseUs.tsx",
+        "src/components/features/WhyChooseUs.tsx",
+        "src/components/home/WhyChooseUs.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-17.png",
+      "references": [
+        "src/components/pricing/Benefits.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-18.png",
+      "references": [
+        "src/components/pricing/Benefits.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-19.png",
+      "references": [
+        "src/components/pricing/Benefits.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-20.png",
+      "references": [
+        "src/components/pricing/Benefits.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-21.png",
+      "references": [
+        "src/components/pricing/Benefits.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-211.svg",
+      "references": [
+        "src/components/services/Solutions.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-213.svg",
+      "references": [
+        "src/components/services/Solutions.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-215.svg",
+      "references": [
+        "src/components/services/Solutions.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-217.jpg",
+      "references": [
+        "src/data/services/automated-background-replacement.md",
+        "src/data/services/batch-image-processing.md",
+        "src/data/services/big-data-consulting.md",
+        "src/data/services/business-analysis.md",
+        "src/data/services/business-continuity-management.md",
+        "src/data/services/cloud-integration.md",
+        "src/data/services/cost-allocation-and-calculation.md",
+        "src/data/services/cryptocurrency-lending.md",
+        "src/data/services/customer-support-automation.md",
+        "src/data/services/digital-wallets.md",
+        "src/data/services/instantaneous-data-insights-and-analytics.md",
+        "src/data/services/machine-learning-and-ai.md",
+        "src/data/services/marketing-automation.md",
+        "src/data/services/monitor-and-analyze-conversions-effectively.md",
+        "src/data/services/payment-solutions.md",
+        "src/data/services/policy-and-program-management.md",
+        "src/data/services/real-time-analytics.md",
+        "src/data/services/sales-management.md",
+        "src/data/services/sales-strategy-and-management-techniques.md",
+        "src/data/services/track-conversions.md"
+      ]
+    },
+    {
+      "path": "ns-img-dark-22.png",
+      "references": [
+        "src/components/pricing/Benefits.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-28.png",
+      "references": [
+        "src/components/process/ProcessOperation.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-35.png",
+      "references": [
+        "src/components/testimonial/Integration.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-36.svg",
+      "references": [
+        "src/components/testimonial/Integration.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-37.svg",
+      "references": [
+        "src/components/testimonial/Integration.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-41.svg",
+      "references": [
+        "src/components/home/Hero.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-42.svg",
+      "references": [
+        "src/components/home/Hero.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-43.svg",
+      "references": [
+        "src/components/home/Hero.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-44.png",
+      "references": [
+        "src/components/career/Features.tsx",
+        "src/components/home/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-45.png",
+      "references": [
+        "src/components/career/Features.tsx",
+        "src/components/home/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-46.png",
+      "references": [
+        "src/components/career/Features.tsx",
+        "src/components/home/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-47.png",
+      "references": [
+        "src/components/career/Features.tsx",
+        "src/components/home/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-48.png",
+      "references": [
+        "src/components/career/Features.tsx",
+        "src/components/home/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-49.png",
+      "references": [
+        "src/components/career/Features.tsx",
+        "src/components/home/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-5.svg",
+      "references": [
+        "src/components/about/WhyChooseUs.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-50.png",
+      "references": [
+        "src/components/features/WhyChooseUs.tsx",
+        "src/components/home/WhyChooseUs.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-52.png",
+      "references": [
+        "src/components/analytics/AnalyticsHero.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-53.png",
+      "references": [
+        "src/components/analytics/AnalyticsHero.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-55.png",
+      "references": [
+        "src/components/team/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-6.svg",
+      "references": [
+        "src/data/services/automated-background-replacement.md"
+      ]
+    },
+    {
+      "path": "ns-img-dark-63.png",
+      "references": [
+        "src/components/features/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-64.png",
+      "references": [
+        "src/components/features/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-65.png",
+      "references": [
+        "src/components/features/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-66.png",
+      "references": [
+        "src/components/features/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-67.png",
+      "references": [
+        "src/components/features/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-69.png",
+      "references": [
+        "src/components/team/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-7.svg",
+      "references": [
+        "src/data/services/batch-image-processing.md"
+      ]
+    },
+    {
+      "path": "ns-img-dark-70.png",
+      "references": [
+        "src/components/team/Features.tsx"
+      ]
+    },
+    {
+      "path": "ns-img-dark-8.svg",
+      "references": [
+        "src/data/services/big-data-consulting.md",
+        "src/data/services/business-continuity-management.md",
+        "src/data/services/cloud-integration.md"
+      ]
+    },
+    {
+      "path": "ns-img-dark-9.svg",
+      "references": [
+        "src/data/services/business-analysis.md"
+      ]
+    },
+    {
+      "path": "portfolio/project-1.jpg",
+      "references": [
+        "README.md"
+      ]
+    },
+    {
+      "path": "services/service-big-data-consulting-cover.png",
+      "references": [
+        "src/data/services/cost-allocation-and-calculation.md",
+        "src/data/services/instantaneous-data-insights-and-analytics.md",
+        "src/data/services/monitor-and-analyze-conversions-effectively.md",
+        "src/data/services/policy-and-program-management.md",
+        "src/data/services/sales-strategy-and-management-techniques.md"
+      ]
+    },
+    {
+      "path": "services/service-crypto-cover.png",
+      "references": [
+        "src/data/services/cryptocurrency-lending.md"
+      ]
+    },
+    {
+      "path": "services/service-customer-support-cover.png",
+      "references": [
+        "src/data/services/customer-support-automation.md"
+      ]
+    },
+    {
+      "path": "services/service-machine-learning-ai-cover.png",
+      "references": [
+        "src/data/services/machine-learning-and-ai.md"
+      ]
+    },
+    {
+      "path": "services/service-marketing-automation-cover.png",
+      "references": [
+        "src/data/services/marketing-automation.md"
+      ]
+    },
+    {
+      "path": "services/service-real-time-analytics-cover.png",
+      "references": [
+        "src/data/services/real-time-analytics.md"
+      ]
+    },
+    {
+      "path": "services/service-sales-management-cover.png",
+      "references": [
+        "src/data/services/sales-management.md"
+      ]
+    },
+    {
+      "path": "services/service-track-conversions-cover.png",
+      "references": [
+        "src/data/services/track-conversions.md"
+      ]
+    },
+    {
+      "path": "shared/dark-logo.svg",
+      "references": [
+        "src/components/shared/navbar/Navbar.tsx"
+      ]
+    },
+    {
+      "path": "shared/logo-dark.svg",
+      "references": [
+        "src/components/shared/footer/Footer.tsx",
+        "src/components/shared/mobile-menu/MobileMenu.tsx",
+        "src/components/shared/navbar/Navbar.tsx"
+      ]
+    },
+    {
+      "path": "shared/logo.svg",
+      "references": [
+        "src/components/referral-program/Hero.tsx",
+        "src/components/shared/TopNavButtons.tsx",
+        "src/components/shared/mobile-menu/MobileMenu.tsx",
+        "src/components/shared/navbar/Navbar.tsx"
+      ]
+    },
+    {
+      "path": "shared/main-logo-dark.svg",
+      "references": [
+        "src/components/brand-kit/Content.tsx"
+      ]
+    },
+    {
+      "path": "shared/main-logo-light.svg",
+      "references": [
+        "src/components/brand-kit/Content.tsx"
+      ]
+    },
+    {
+      "path": "shared/main-logo.svg",
+      "references": [
+        "src/components/shared/navbar/Navbar.tsx"
+      ]
+    }
+  ],
+  "missing_images_copied": [
+    "icons/outreach-dark.svg",
+    "ns-img-534.png",
+    "ns-img-64.svg",
+    "ns-img-65.svg",
+    "ns-img-66.svg",
+    "ns-img-73.png",
+    "ns-img-75.png",
+    "ns-img-dark-41.svg",
+    "ns-img-dark-42.svg",
+    "ns-img-dark-43.svg"
+  ],
+  "missing_images_not_found": [
+    {
+      "path": "home-page-1/services-asset-1.svg",
+      "reason": "not found in source folder"
+    },
+    {
+      "path": "home-page-1/services-big-data-consulting.svg",
+      "reason": "not found in source folder"
+    },
+    {
+      "path": "home-page-1/services-crypto-lending.svg",
+      "reason": "not found in source folder"
+    },
+    {
+      "path": "home-page-1/services-customer-support.svg",
+      "reason": "not found in source folder"
+    },
+    {
+      "path": "home-page-1/services-machine-learning-ai.svg",
+      "reason": "not found in source folder"
+    },
+    {
+      "path": "home-page-1/services-marketing-automation.svg",
+      "reason": "not found in source folder"
+    },
+    {
+      "path": "home-page-1/services-real-time-analytics.svg",
+      "reason": "not found in source folder"
+    },
+    {
+      "path": "home-page-1/services-sales-management.svg",
+      "reason": "not found in source folder"
+    },
+    {
+      "path": "home-page-1/services-track-conversions.svg",
+      "reason": "not found in source folder"
+    },
+    {
+      "path": "layers-2x.png",
+      "reason": "not found in source folder"
+    },
+    {
+      "path": "layers.png",
+      "reason": "not found in source folder"
+    },
+    {
+      "path": "marker-icon.png",
+      "reason": "not found in source folder"
+    },
+    {
+      "path": "portfolio/project-1.jpg",
+      "reason": "not found in source folder"
+    },
+    {
+      "path": "services/service-big-data-consulting-cover.png",
+      "reason": "not found in source folder"
+    },
+    {
+      "path": "services/service-crypto-cover.png",
+      "reason": "not found in source folder"
+    },
+    {
+      "path": "services/service-customer-support-cover.png",
+      "reason": "not found in source folder"
+    },
+    {
+      "path": "services/service-machine-learning-ai-cover.png",
+      "reason": "not found in source folder"
+    },
+    {
+      "path": "services/service-marketing-automation-cover.png",
+      "reason": "not found in source folder"
+    },
+    {
+      "path": "services/service-real-time-analytics-cover.png",
+      "reason": "not found in source folder"
+    },
+    {
+      "path": "services/service-sales-management-cover.png",
+      "reason": "not found in source folder"
+    },
+    {
+      "path": "services/service-track-conversions-cover.png",
+      "reason": "not found in source folder"
+    }
+  ],
+  "unused_images_removed": [
+    "icons/asana.svg",
+    "icons/dropbox.svg",
+    "icons/location.svg",
+    "icons/mail.svg",
+    "icons/notion.svg",
+    "icons/phone.svg",
+    "icons/project.svg",
+    "icons/reddit.svg",
+    "icons/user.svg",
+    "icons/x.svg",
+    "ns-img-1.svg",
+    "ns-img-2.png",
+    "ns-img-20.png",
+    "ns-img-23.png",
+    "ns-img-29.png",
+    "ns-img-3.png",
+    "ns-img-33.png",
+    "ns-img-35.png",
+    "ns-img-4.svg",
+    "ns-img-42.png",
+    "ns-img-43.png",
+    "ns-img-44.png",
+    "ns-img-45.png",
+    "ns-img-46.png",
+    "ns-img-47.png",
+    "ns-img-48.png",
+    "ns-img-5.png",
+    "ns-img-50.png",
+    "ns-img-51.svg",
+    "ns-img-52.png",
+    "ns-img-53.svg",
+    "ns-img-6.png",
+    "ns-img-8.png",
+    "ns-img-9.png",
+    "ns-img-dark-1.svg",
+    "ns-img-dark-10.png",
+    "ns-img-dark-14.png",
+    "ns-img-dark-15.png",
+    "ns-img-dark-16.png",
+    "ns-img-dark-2.png",
+    "ns-img-dark-23.png",
+    "ns-img-dark-24.png",
+    "ns-img-dark-25.png",
+    "ns-img-dark-26.png",
+    "ns-img-dark-27.png",
+    "ns-img-dark-29.png",
+    "ns-img-dark-3.png",
+    "ns-img-dark-30.svg",
+    "ns-img-dark-4.svg"
+  ]
+}

@@ -1,0 +1,24 @@
+<svg width="88" height="44" viewBox="0 0 88 44" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_946_1056" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="44" height="44">
+<circle cx="22" cy="22" r="22" transform="rotate(-90 22 22)" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_946_1056)">
+<rect y="44" width="44" height="22" transform="rotate(-90 0 44)" fill="#0E0F11"/>
+</g>
+<g opacity="0.5">
+<mask id="mask1_946_1056" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="30" y="2" width="40" height="40">
+<circle cx="50" cy="22" r="20" transform="rotate(-90 50 22)" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask1_946_1056)">
+<rect x="30" y="42" width="40" height="20" transform="rotate(-90 30 42)" fill="#0E0F11"/>
+</g>
+</g>
+<g opacity="0.1">
+<mask id="mask2_946_1056" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="56" y="5" width="32" height="32">
+<circle cx="72" cy="21" r="16" transform="rotate(-90 72 21)" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask2_946_1056)">
+<rect x="56" y="37" width="32" height="16" transform="rotate(-90 56 37)" fill="#0E0F11"/>
+</g>
+</g>
+</svg>
